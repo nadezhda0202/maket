@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+.header {
+    height: 323px;
+    background-color: #445162;
+}
+
+.text {
+    display: block;
+    float: left;
+}
+
+.text h1 {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text ul {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 86px;
+    margin-top: 50px;
+    list-style-type: none;
+    list-style-image: url("img/icon.png");
+}
+
+.image img {
+    display: block;
+    float: right;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+
+.aboutProduct {
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #445161;
+    font-family: "Arial MT", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 50px;
+    margin-top: 49px;
+}
+
+.articletext {
+    margin-left: 50px;
+    font-family: "Arial MT", sans-serif;
+    display: block;
+    float: left;
+}
+
+.articletext p {
+    width: 649px;
+    height: 63px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.articlevideo {
+    display: block;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.p1 {
+    margin-top: 30px;
+}
+
+.p2 {
+    margin-top: 20px;
+}
+
+.DignityAndPluses {
+    background-color: #f5f5f5;
+}
+
+.DignityAndPluses h2 {
+    text-align: center;
+}
+
+.dignity {
+    width: 526px;
+    height: 63px;
+    color: #333333;
+    font-family: "Arial MT", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+    float: left;
+    margin-left: 91px;
+    margin-top: 29px;
+    margin-bottom: 35px;
+    list-style-type: none;
+    list-style-image: url("img/layers.png");
+}
+
+.pluses {
+    width: 526px;
+    height: 63px;
+    color: #333333;
+    font-family: "Arial MT", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: block;
+    float: right;
+    margin-left: 64px;
+    margin-top: 29px;
+    margin-bottom: 35px;
+    list-style-type: none;
+    list-style-image: url("img/layers.png");
+}
+
+
