@@ -8,7 +8,8 @@
 <body>
 <div class="container">
     <header class="Header">
-        <div class="text">
+               <div class="text">
+
             <h1 class="productName">Product name</h1>
             <ul class="headerList">
                 <li>Put on this page information about your product</li>
@@ -17,7 +18,10 @@
                 <li>Associate the page with the payment system</li>
             </ul>
         </div>
-        <img class="productImg" src="img/Shape.jpg" alt="image" width="469" height="214">
+        <video class="productImg" width="500" height="300" autoplay loop muted>
+            <source src="video/flower.mp4" type="video/mp4">
+            <source src="video/flower.webm" type="video/webm">
+        </video>
     </header>
 
     <main>
@@ -198,25 +202,41 @@
     </main>
 </div>
 <footer>
-    <h2 class="hfooter" >Contacts</h2>
-    <div class="content">
-    <form action="#">
-        <input type="text" placeholder="Your name:"><br>
-        <input type="password" placeholder="Your email:"><br>
-        <textarea name="text" placeholder="Your message:" cols="50" rows="10"></textarea>  <br>
-        <input type="submit" value="SEND">
+    <form class="avtorization" action="#">
+        <fieldset>
+            <legend>Авторизуйтесь для покупки</legend>
+            <label for="surname" >Фамилия <em>*</em></label>
+            <input id="surname" autofocus><br>
+            <label for="name">Имя <em>*</em></label>
+            <input id="name"><br>
+            <label for="fathername">Отчество</label>
+            <input id="fathername"><br>
+            <label for="telephone">Телефон <em>*</em></label>
+            <input id="telephone" type="number"><br>
+            <label for="email">E-Mail <em>*</em></label>
+            <input id="email" type="email"><br>
+        </fieldset>
+        <p><input type="submit" value="Отправить информацию"></p>
     </form>
-    <div class="contacts">
-        <div class="skype">here_your_login_skype</div>
-        <div class="icq">279679659</div>
-        <div class="email">psdhtmlcss@mail.ru</div>
-        <div class="phone">80 00 4568 55 55</div>
-        </div>
-    </div>
+
+    <form class="ball" action="#">
+        <label for="ball">Ваша оценка</label>
+        <select id="ball">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+
+
+    </select><br>
+        <p><input type="submit" value="Отправить информацию"></p>
+    </form>
+
 </footer>
 <div class="copy">
     Copyright &copy; 2014 Product name · PSD HTML CSS
 </div>
-</div>
+
 </body>
 </html>
